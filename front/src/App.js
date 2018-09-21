@@ -70,9 +70,7 @@ class App extends Component {
     shouldKeepDate(dateStartResa, resaDuration){
         const dateStartPreResa = moment(dateStartResa).subtract(20, 'minutes')._d;
         const dateEndResa = moment(dateStartResa).add(resaDuration, 'minutes')._d;
-        if (moment(this.state.dateResa).isBetween(dateStartPreResa, dateEndResa, 'minutes') === true){
-            return false
-        } else return true
+        return moment(this.state.dateResa).isBetween(dateStartPreResa, dateEndResa, 'minutes') !== true;
     };
 
     shouldKeepCapacity(capacity){
