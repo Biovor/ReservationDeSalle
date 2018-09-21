@@ -1,0 +1,28 @@
+{
+  "name": "resa-salles",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.1.0",
+    "@material-ui/icons": "^3.0.1",
+    "input-moment": "^0.4.0",
+    "lodash": "^4.17.11",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "rc-datetime-picker": "^1.6.1",
+    "rc-time-picker": "^3.4.0",
+    "react": "^16.5.0",
+    "react-datetime": "^2.15.0",
+    "react-datetime-inputs": "0.0.6",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3400"
+}
