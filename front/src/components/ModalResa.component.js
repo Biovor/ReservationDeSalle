@@ -118,7 +118,7 @@ class SimpleModal extends React.Component {
                 >
                     <div  style={getModalStyle()} className={classes.paper}>
                         <Typography variant="title" id="modal-title">
-                            Réservation de la
+                            Réservation de la {this.props.salleName}
                         </Typography>
 
                         <form className={classes.container} noValidate>
