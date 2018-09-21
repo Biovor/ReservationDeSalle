@@ -1,20 +1,6 @@
 {
   "rooms": [
     {
-      "name": "Salle #2",
-      "description": "Salle #2",
-      "capacity": 10,
-      "equipements": [
-        {
-          "name": "Retro Projecteur"
-        }
-      ],
-      "createdAt": "2016-12-07T12:39:55.384Z",
-      "updatedAt": "2016-12-07T13:33:37.184Z",
-      "reservedThe": "2018-09-21T07:32:46.059Z",
-      "reservationDuration": 300
-    },
-    {
       "name": "Salle de ouf",
       "description": "Salle de ouf",
       "capacity": 10,
@@ -28,8 +14,22 @@
       ],
       "createdAt": "2016-12-09T16:45:34.419Z",
       "updatedAt": "2016-12-09T16:45:34.419Z",
-      "reservedThe": "2018-09-21T07:31:07.720Z",
+      "reservedThe": "2018-09-21T17:51:13.944Z",
       "reservationDuration": 5
+    },
+    {
+      "name": "Salle #2",
+      "description": "Salle #2",
+      "capacity": 10,
+      "equipements": [
+        {
+          "name": "Retro Projecteur"
+        }
+      ],
+      "createdAt": "2016-12-07T12:39:55.384Z",
+      "updatedAt": "2016-12-07T13:33:37.184Z",
+      "reservedThe": "2018-09-21T07:32:46.059Z",
+      "reservationDuration": 300
     },
     {
       "name": "Salle #1",

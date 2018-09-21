@@ -1,5 +1,6 @@
 import Datetime from 'react-datetime';
 import React, {Component} from "react";
+import moment from 'moment/locale/fr-ca';
 
 const yesterday = Datetime.moment().subtract( 1, 'day' )
 const valid = function( current ) {
